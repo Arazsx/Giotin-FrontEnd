@@ -1,0 +1,27 @@
+#main-img {
+  
+  height: 250px;
+  width:100%
+} 
+
+@media screen and (max-width: 767px) {   
+    #main-img{
+    	background-image: url(../../assets/img/gp3.jpg); background-repeat:no-repeat; background-size:cover; background-position:center;
+    } 
+}
+
+@media screen and (min-width: 768px) {      
+    #main-img{      
+    	background-image: url(../../assets/img/gp03.jpg); background-repeat:no-repeat; background-size:cover; background-position:center;
+    } 
+} 
+@media screen and (min-width: 992px) {      
+      #main-img{        
+          background-image: url(../../assets/img/gbg01.jpg); background-repeat:no-repeat; background-size:cover; background-position:center;
+      } 
+}
+@media screen and (min-width: 1200px) {    
+     #main-img{         
+         background-image: url(../../assets/img/gbg01.jpg); background-repeat:no-repeat; background-size:cover; background-position:center;
+     } 
+}
